@@ -1,4 +1,4 @@
-# Creating Access Keys
+# Creating Access Keys and Configure CLI
 
 Create max of 2 Access Keys for each Identity \
 Secret Access Key is only showed to you by AWS when creating the Access Key, and that's it! You're responsible for holding onto this info. \
