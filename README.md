@@ -22,3 +22,17 @@ aws --version (this should return aws-cli/2.X.XX indicating version 2)
 
 \
 **Configuring the Command Line Interface:** \
+Run the following commands, options, arguments & inputs \
+aws configure --profile iamadmin-general \
+Enter the Access Key ID from the iamadmin_accessKeys_general.csv file \
+Enter the Secret Access Key \
+Default Region: us-east-1 \
+Default Output Format: just hit enter \
+
+/
+**Test the configuration:** \
+Run: aws s3 ls --profile iamadmin-general \
+This should return no listings if there are no buckets within this account. \
+If an error is returned, re-enter the following line, and make sure you enter the entire Sccess Key ID & Secret Access Key \
+aws configure --profile iamadmin-general \
+
