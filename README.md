@@ -13,12 +13,6 @@ Download iamadmin_accessKeys.csv file \
 Rename: iamadmin_accessKeys_general.csv
 
 \
-**Disclaimer!!!!** \
-Do not share your Access Key ID or Secret Access Key with anyone! \
-With this information, someone can log into your AWS Account \
-If the integrety of your keys is jeopardized, just simply delete the Access Key & create a new one.
-
-\
 **Install AWS CLI v2:** \
 https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-windows.html \
 Topics → click "Install or update the AWS CLI version 2 on Windows using the MSI installer" \
@@ -44,3 +38,11 @@ This should return no listings if there are no buckets within this account. \
 If an error is returned, re-enter the following line, and make sure you enter the entire Sccess Key ID & Secret Access Key \
 aws configure --profile iamadmin-general
 
+\
+**Disclaimer!!!!** \
+Do not share your Access Key ID or Secret Access Key with anyone! \
+With this information, someone can log into your AWS Account, and assume all permissions on that account! \
+If the integrety of your keys is jeopardized, \
+just simply delete the Access Key, create a new one, rename it, \
+and reconfigure your profile by running the following command: \
+aws configure --profile iamadmin-general
