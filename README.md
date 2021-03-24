@@ -7,4 +7,5 @@ You can Delete Access Keys, or Make Inactive.
 Account dropdown → My Security Credentials \
 Scroll down to "Access Keys for CLI, SDK, & API access" → Create Access Key \
 Access Key ID (Public, like a username) & Secret Access Key (Private, like a password) \
-Download .csv file \
+Download iamadmin_accessKeys.csv file \
+Rename: iamadmin_accessKeys_general.csv
