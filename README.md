@@ -29,7 +29,7 @@ aws configure --profile iamadmin-general \
 Enter the Access Key ID from the iamadmin_accessKeys_general.csv file \
 Enter the Secret Access Key \
 Default Region: us-east-1 \
-Default Output Format: just hit enter \
+Default Output Format: just hit enter
 
 \
 **Test the configuration:** \
